@@ -1,0 +1,29 @@
+{
+  "name": "timbo",
+  "version": "1.0.0",
+  "description": "Create metrics to monitor your applications",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alecspringel/timbo.git"
+  },
+  "keywords": [
+    "observability",
+    "monitoring",
+    "metrics"
+  ],
+  "author": "Alec Springel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alecspringel/timbo/issues"
+  },
+  "homepage": "https://github.com/alecspringel/timbo#readme",
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.24.2"
+  }
+}
