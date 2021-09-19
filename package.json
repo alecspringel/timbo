@@ -4,6 +4,7 @@
   "description": "Create metrics to monitor your applications",
   "main": "index.js",
   "scripts": {
+    "start": "node ./lib/timboServer",
     "test": "test"
   },
   "repository": {
@@ -25,5 +26,13 @@
     "eslint": "^7.32.0",
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-plugin-import": "^2.24.2"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.991.0",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "next": "^11.1.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
   }
 }
