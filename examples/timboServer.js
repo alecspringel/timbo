@@ -1,6 +1,7 @@
 const TimboServer = require('../lib/timboServer');
+const { AWS_ACCESS_KEY, AWS_SECRET_KEY } = require('./secrets');
 
-const timbo = new TimboServer();
+const timbo = new TimboServer(AWS_ACCESS_KEY, AWS_SECRET_KEY, 'us-west-2', 'timbo-test-2');
 
 timbo.prepare(() => {
   const server = timbo.express();

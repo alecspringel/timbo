@@ -1,6 +1,7 @@
-const Timbo = require('../lib/timbo');
+const Timbo = require('../lib/dynamo');
+const { AWS_ACCESS_KEY, AWS_SECRET_KEY } = require('./secrets');
 
-const timbo = new Timbo('AWS_ACCESS_KEY', 'AWS_SECRET_KEY', 'us-west-2', 'timbo-test-2');
+const timbo = new Timbo(AWS_ACCESS_KEY, AWS_SECRET_KEY, 'us-west-2', 'timbo-test-2');
 
 const dimensions = {
   user: '1234',
